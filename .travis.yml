@@ -17,5 +17,6 @@ script:
 
 after_success:
   - git checkout master
+  - R -e 'current_ver <- semver::parse_version(readLines("version.txt"))'
   - Rscript update_version.R
   - bash update_repo.sh
