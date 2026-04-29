@@ -28,7 +28,8 @@
       {"value": "Javelina"},
       {"value": "Coyote"},
       {"value": "Badger"},
-      {"value": "Dog"}
+      {"value": "Dog"},
+      {"value": "Human"}
     ]
   },
   {
@@ -103,6 +104,12 @@
       {"value": "Beetle"},
       {"value": "Tarantula"},
       {"value": "Arthropod"}
+    ]
+  },
+  {
+    "value": "Other",
+    "children": [
+      {"value": "Vehicle"}
     ]
   }
 ]
